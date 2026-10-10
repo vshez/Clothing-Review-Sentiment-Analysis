@@ -17,7 +17,7 @@ python -m pip install pandas numpy scikit-learn nltk matplotlib seaborn
 python -m nltk.downloader stopwords wordnet omw-1.4 averaged_perceptron_tagger averaged_perceptron_tagger_eng
 5. Check the script's pd.read_csv(...) path. It must point to clothing-review-dataset.csv. For example, if the CSV is alongside the script, use pd.read_csv("clothing_reviews.csv") else if inside data folder, project_folder / "data/clothing_reviews.csv"
 6. Set the run configuration's working directory to the project folder.
-Run
+How to Run
 Right-click sentiment_analysis.py and select Run, or execute:
 python sentiment_analysis.py
 Read the console metrics and check the output locations configured in your script for the generated CSVs and figure.
