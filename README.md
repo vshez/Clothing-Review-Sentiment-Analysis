@@ -9,7 +9,7 @@ The analyzed CSV contains 50,000 rows and 15 columns. Only Review is used as the
 - Ratings 4–5: positive (21,500 reviews).
 
 ## Setup in PyCharm
-1. Open your project and select its Python interpreter/virtual environment.
+1. Open project and select its Python interpreter/virtual environment.
 2. Download sentiment_analysis.py and clothing-review-dataset.csv in the project.
 3. Open PyCharm's Terminal and install dependencies:
 python -m pip install pandas numpy scikit-learn nltk matplotlib seaborn
